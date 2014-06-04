@@ -69,7 +69,7 @@
                         <index>true</index>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <mainClass>imageeditor.ImageEditor</mainClass>
+                            <mainClass>com.oz.digital.sign.window.MainView</mainClass>
                         </manifest>
                         <manifestEntries>
                             <Trusted-Only>true</Trusted-Only>
@@ -103,10 +103,10 @@
                 </executions>
                 <configuration>
                     <verbose>false</verbose>
-                    <keystore>~/.keystore/ks-cetain-server.jks</keystore>
-                    <alias>CETAIN</alias>
-                    <storepass>z#3?7$a1n~=</storepass>
-                    <keypass>#$C2cf$"s3_</keypass>
+                    <keystore>~/.keystore/OZ.jks</keystore>
+                    <alias>OZ-Cert</alias>
+                    <storepass>5t0r3P#$wD</storepass>
+                    <keypass>0r817#L=Z3rO</keypass>
                     <arguments>
                         <argument>-sigalg</argument>
                         <argument>SHA256withRSA</argument>
